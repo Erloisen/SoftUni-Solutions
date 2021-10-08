@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Cars
 {
-    public class Car
+    class Car
     {
         public Car(string model, double fuelAmount, double fuelConsumptionPerKilometer)
         {

@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31727.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefiningClasses", "DefiningClasses\DefiningClasses.csproj", "{63F327E5-F5EC-4B2F-AA2A-022370C8EB48}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars", "06.SpeedRacing\Cars.csproj", "{D3253767-60EC-4BC4-A340-78D2493A4657}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RawData", "RawData\RawData.csproj", "{5EF2FB3A-174E-4C1E-9983-1559089DF487}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarSalesman", "CarSalesman\CarSalesman.csproj", "{61D4AE56-C766-4F08-8FE1-941B93453406}"
@@ -19,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateModifier", "DateModifie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUniParking", "SoftUniParking\SoftUniParking.csproj", "{84B21E5D-1A48-4188-B48A-4ACFA30C358C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars", "SpeedRacing\Cars.csproj", "{6CBAB58A-5E43-4D22-A977-0D060B2570CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +29,6 @@ Global
 		{63F327E5-F5EC-4B2F-AA2A-022370C8EB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63F327E5-F5EC-4B2F-AA2A-022370C8EB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63F327E5-F5EC-4B2F-AA2A-022370C8EB48}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D3253767-60EC-4BC4-A340-78D2493A4657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3253767-60EC-4BC4-A340-78D2493A4657}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3253767-60EC-4BC4-A340-78D2493A4657}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3253767-60EC-4BC4-A340-78D2493A4657}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5EF2FB3A-174E-4C1E-9983-1559089DF487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5EF2FB3A-174E-4C1E-9983-1559089DF487}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EF2FB3A-174E-4C1E-9983-1559089DF487}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +53,10 @@ Global
 		{84B21E5D-1A48-4188-B48A-4ACFA30C358C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84B21E5D-1A48-4188-B48A-4ACFA30C358C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84B21E5D-1A48-4188-B48A-4ACFA30C358C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CBAB58A-5E43-4D22-A977-0D060B2570CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBAB58A-5E43-4D22-A977-0D060B2570CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBAB58A-5E43-4D22-A977-0D060B2570CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBAB58A-5E43-4D22-A977-0D060B2570CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

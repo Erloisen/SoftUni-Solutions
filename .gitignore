@@ -9,6 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.zip
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -348,3 +349,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/CSharp-Advanced/Defining Classes-Exercise/DefiningClasses-Exercise/06.SpeedRacing/Car.cs
+/CSharp-Advanced/Defining Classes-Exercise/DefiningClasses-Exercise/06.SpeedRacing/Cars.csproj
+/CSharp-Advanced/Defining Classes-Exercise/DefiningClasses-Exercise/06.SpeedRacing/StartUp.cs

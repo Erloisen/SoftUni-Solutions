@@ -48,53 +48,32 @@ namespace Survivor
                 }
                 else if (command == "Opponent")
                 {
+                    opponentTokens++;
+                    beach[row][col] = '-';
                     string direction = action[3];
-                    switch (direction)
+                    for (int i = 0; i < 3; i++)
                     {
-                        case "up":
-                            for (int i = 0; i <= 3; i++)
-                            {
-                                if (IsValidIndexes(numberOfRows, beach, row, col) && beach[row][col] == 'T')
-                                {
-                                    opponentTokens++;
-                                    beach[row][col] = '-';
-                                }
+                        switch (direction)
+                        {
+                            case "up":
                                 row--;
-                            }
-                            break;
-                        case "down":
-                            for (int i = 0; i <= 3; i++)
-                            {
-                                if (IsValidIndexes(numberOfRows, beach, row, col) && beach[row][col] == 'T')
-                                {
-                                    opponentTokens++;
-                                    beach[row][col] = '-';
-                                }
+                                break;
+                            case "down":
                                 row++;
-                            }
-                            break;
-                        case "left":
-                            for (int i = 0; i <= 3; i++)
-                            {
-                                if (IsValidIndexes(numberOfRows, beach, row, col) && beach[row][col] == 'T')
-                                {
-                                    opponentTokens++;
-                                    beach[row][col] = '-';
-                                }
+                                break;
+                            case "left":
                                 col--;
-                            }
-                            break;
-                        case "right":
-                            for (int i = 0; i <= 3; i++)
-                            {
-                                if (IsValidIndexes(numberOfRows, beach, row, col) && beach[row][col] == 'T')
-                                {
-                                    opponentTokens++;
-                                    beach[row][col] = '-';
-                                }
+                                break;
+                            case "right":
                                 col++;
-                            }
-                            break;
+                                break;
+                        }
+
+                        if (IsValidIndexes(numberOfRows, beach, row, col) && beach[row][col] == 'T')
+                        {
+                            opponentTokens++;
+                            beach[row][col] = '-';
+                        }
                     }
                 }
 

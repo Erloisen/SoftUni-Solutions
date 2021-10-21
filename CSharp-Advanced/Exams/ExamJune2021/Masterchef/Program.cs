@@ -54,14 +54,9 @@ namespace Masterchef
                 }
             }
 
-            if (dishes.Any(d => d.Value < 1))
-            {
-                Console.WriteLine("You were voted off. Better luck next year.");
-            }
-            else
-            {
-                Console.WriteLine("Applause! The judges are fascinated by your dishes!");
-            }
+            Console.WriteLine(dishes.Any(d => d.Value < 1) ?
+                    "You were voted off. Better luck next year." :
+                    "Applause! The judges are fascinated by your dishes!");
 
             if (ingredientsInBasket.Count > 0)
             {

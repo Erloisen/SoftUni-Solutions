@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Library
+namespace IteratorsAndComparators
 {
     public class Library : IEnumerable<Book>
     {
-        public readonly List<Book> books;
+        public readonly SortedSet<Book> books;
 
         private class LibraryIterator : IEnumerator<Book>
         {
@@ -15,7 +15,7 @@ namespace Library
 
             private int index;
 
-            public LibraryIterator(List<Book> books)
+            public LibraryIterator(IEnumerable<Book> books)
             {
                 this.Reset();
                 this.books = new List<Book>(books);
@@ -42,7 +42,7 @@ namespace Library
 
         public Library(params Book[] books)
         {
-            this.books = new List<Book>(books);
+            this.books = new SortedSet<Book>(books, new BookComparator());
         }
 
         public void Add(Book book) 

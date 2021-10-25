@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Library
+namespace IteratorsAndComparators
 {
     public class IteratorsAndComparators
     {
@@ -15,7 +15,7 @@ namespace Library
 
             foreach (var book in libraryTwo)
             {
-                Console.WriteLine($"{string.Join(" && ", book.Authors)} - {book.Title} ({book.Year})");
+                Console.WriteLine(book.ToString());
             }
         }
     }

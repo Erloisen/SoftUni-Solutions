@@ -1,0 +1,112 @@
+[
+  {
+    "car": {
+      "Make": "Skoda",
+      "Model": "Fabia",
+      "TravelledDistance": 57662452
+    },
+    "customerName": "Johnette Derryberry",
+    "Discount": "30.00",
+    "price": "3086.73",
+    "priceWithDiscount": "2160.71"
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W202",
+      "TravelledDistance": 376376181
+    },
+    "customerName": "Rico Peer",
+    "Discount": "20.00",
+    "price": "4164.54",
+    "priceWithDiscount": "3331.63"
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Insignia",
+      "TravelledDistance": 168539389
+    },
+    "customerName": "Rema Revelle",
+    "Discount": "40.00",
+    "price": "619.66",
+    "priceWithDiscount": "371.80"
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C1",
+      "TravelledDistance": 389207601
+    },
+    "customerName": "Johnette Derryberry",
+    "Discount": "30.00",
+    "price": "4382.32",
+    "priceWithDiscount": "3067.62"
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C1",
+      "TravelledDistance": 498211182
+    },
+    "customerName": "Kristian Engberg",
+    "Discount": "0.00",
+    "price": "382.96",
+    "priceWithDiscount": "382.96"
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Camry Hybrid",
+      "TravelledDistance": 151868293
+    },
+    "customerName": "Marcelle Griego",
+    "Discount": "40.00",
+    "price": "2969.99",
+    "priceWithDiscount": "1781.99"
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Alaskan",
+      "TravelledDistance": 17909035
+    },
+    "customerName": "Brett Brickley",
+    "Discount": "40.00",
+    "price": "335.38",
+    "priceWithDiscount": "201.23"
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "F430",
+      "TravelledDistance": 397106659
+    },
+    "customerName": "Donnetta Soliz",
+    "Discount": "50.00",
+    "price": "1639.32",
+    "priceWithDiscount": "819.66"
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Duster",
+      "TravelledDistance": 451149098
+    },
+    "customerName": "Natalie Poli",
+    "Discount": "10.00",
+    "price": "1205.32",
+    "priceWithDiscount": "1084.79"
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Panda",
+      "TravelledDistance": 165915677
+    },
+    "customerName": "Hai Everton",
+    "Discount": "50.00",
+    "price": "2242.25",
+    "priceWithDiscount": "1121.13"
+  }
+]

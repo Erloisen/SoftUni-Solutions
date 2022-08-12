@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Datasets\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Datasets\.vs\Datasets\FileContentIndex\e62b3581-5cf1-423f-8b71-b3c98f114b3e.vsidx" />
+    <None Include="Datasets\.vs\Datasets\FileContentIndex\read.lock" />
+    <None Include="Datasets\.vs\slnx.sqlite" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProductShop.Data\ProductShop.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Datasets\.vs\Datasets\FileContentIndex\merges\" />
+    <Folder Include="Datasets\.vs\Datasets\v17\" />
+  </ItemGroup>
+
+</Project>
